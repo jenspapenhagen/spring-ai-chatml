@@ -15,17 +15,6 @@ For more details on the ChatML format, see the [Liquid AI Documentation](https:/
 - **Tool calling**: Includes tool definitions in system prompts and parses tool calls from responses
 - **Configurable stop sequences**: Stops at `<|im_end|>` and `<|tool_call_end|>`
 
-## File Structure
-
-```
-spring-ai-chatml/
-├── src/main/java/de/papenhagen/
-│   └── LfmChatmlPromptFormatter.java    # Main ChatML formatter implementation
-├── src/main/resources/
-│   └── application.properties
-└── README.md
-```
-
 ## Key Implementation Details
 
 ### ChatML Format
